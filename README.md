@@ -18,19 +18,21 @@ Social-Network-API where users can share their thoughts, react to friends’ tho
 
 ## More details
 ```
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
+AS a senior engineer working on an e-commerce platform
+I WANT my platform to use Redux to manage global state instead of the Context API
+SO THAT my website's state management is taken out of the React ecosystem
 
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+GIVEN an e-commerce platform that uses Redux to manage global state
+WHEN I review the app’s store
+THEN I find that the app uses a Redux store instead of the Context API
+WHEN I review the way the React front end accesses the store
+THEN I find that the app uses a Redux provider
+WHEN I review the way the app determines changes to its global state
+THEN I find that the app passes reducers to a Redux store instead of using the Context API
+WHEN I review the way the app extracts state data from the store
+THEN I find that the app uses Redux instead of the Context API
+WHEN I review the way the app dispatches actions
+THEN I find that the app uses Redux instead of the Context API
 ```
 ## Assets
 
@@ -45,7 +47,7 @@ The following images demonstrate the web application's appearance and functional
 The user should clone the repository from GitHub and download Node. 
 Run `npm install ` to install.
 Run `npm run seed ` to run the database.
-Run `npm start ` to start the Social-Network-API.
+Run `npm run develop ` to start the Social-Network-API.
 
 ## Usage 
 Use inquirer from your command line to answer questions about your project.
@@ -58,8 +60,8 @@ Contributors should read the installation section.
 ## Technologies used
 
 ```
- Express.js API 
-  Mongoose packages
+  R​​edux
+  React
   tested in Insomnia
   MongoDB database
 ```
