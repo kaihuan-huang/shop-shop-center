@@ -37,6 +37,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 The following images demonstrate the web application's appearance and functionality in Insomnia:
 
 ![insomnia](images/example.png)
+![insomnia](images/example.png)
 
 
 
