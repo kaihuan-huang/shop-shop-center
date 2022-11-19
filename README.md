@@ -1,4 +1,4 @@
-# Social-Network-API---NoSQL-MongoDB-database
+# shop-shop-center
 ![Github licence](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
@@ -11,9 +11,9 @@
 * [Questions](#questions)
 
 ## Description
-Social-Network-API where users can share their thoughts, react to friends’ thoughts, and create a friend list. Used Express.js for routing, a MongoDB database, and the Mongoose ODM.
+Shop-shop-center is a platform used Redux to manage global state instead of the Context API, and website's state management is taken out of the React ecosystem
 
-- Deployed link: https://github.com/kaihuan-huang/Social-Network-API---NoSQL-MongoDB-database
+- Deployed link: https://github.com/kaihuan-huang/shop-shop-center
 
 
 ## More details
@@ -38,8 +38,9 @@ THEN I find that the app uses Redux instead of the Context API
 
 The following images demonstrate the web application's appearance and functionality in Insomnia:
 
-![insomnia](images/example.png)
-![insomnia](images/example.png)
+![login](images/login.png)
+![front](images/front.png)
+![back](images/back.png)
 
 
 
@@ -47,11 +48,7 @@ The following images demonstrate the web application's appearance and functional
 The user should clone the repository from GitHub and download Node. 
 Run `npm install ` to install.
 Run `npm run seed ` to run the database.
-Run `npm run develop ` to start the Social-Network-API.
-
-## Usage 
-Use inquirer from your command line to answer questions about your project.
-View walk through video here - [Social-Network-API](https://drive.google.com/file/d/1zeQ3AUeuJwaU9InUIp6IfpriZZGwY-zE/view)<br>
+Run `npm run develop ` to start the Shop-shop-center.
 
 
 ## Contributing 
