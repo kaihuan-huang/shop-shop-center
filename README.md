@@ -14,6 +14,7 @@
 Shop-shop-center is a platform used Redux to manage global state instead of the Context API, and website's state management is taken out of the React ecosystem
 
 - Deployed link: https://github.com/kaihuan-huang/shop-shop-center
+- Live: https://dry-taiga-49060.herokuapp.com/login
 
 
 ## More details
